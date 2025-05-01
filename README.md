@@ -1,10 +1,23 @@
 # Brain Tumor Segmentation
 
-This project uses deep learning (U-Net) to segment brain tumors from MRI images using Python, TensorFlow, and OpenCV.
+Brain tumor segmentation detection steps in few words:
 
-## 🧠 Features
-- Preprocessing MRI images and masks
-- U-Net-based segmentation model
-- Trains and saves the best model
-- Visualizes original image, ground truth, and predicted mask
+1. Data Collection – Gather MRI scans.
 
+
+2. Preprocessing – Normalize, resize, remove skull.
+
+
+3. Modeling – Use deep learning (e.g., U-Net).
+
+
+4. Training – Train with labeled tumor masks.
+
+
+5. Prediction – Generate segmentation masks.
+
+
+6. Post-processing – Refine results.
+
+
+7. Evaluation – Assess accuracy (Dice, IoU).
